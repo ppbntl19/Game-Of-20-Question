@@ -2,7 +2,7 @@
   "name": "backend_qgame",
   "version": "1.0.0",
   "description": "",
-    "engines": {
+  "engines": {
     "node": "v10.16.0",
     "npm": "6.9.0"
   },
