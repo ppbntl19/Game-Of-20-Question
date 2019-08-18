@@ -1,0 +1,15 @@
+{
+  "name": "backend_qgame",
+  "version": "1.0.0",
+  "description": "",
+    "engines": {
+    "node": "v10.16.0",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "cd backend && npm start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
