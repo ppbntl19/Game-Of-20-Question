@@ -10,6 +10,6 @@
     "start": "cd backend && npm install && npm start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Pooran Prakash <ppbntl19@gmail.com>",
   "license": "ISC"
 }

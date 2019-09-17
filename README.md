@@ -14,6 +14,16 @@ or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
 Happy coding!
 
 
+Tech Stack - NodeJS,MongoDB,  VueJS, Websockets, and  Bootstrap for very simple design.
+
+Almost all the controlling logic of the game is on client-side(Vue JS) And Node server is just serving the updated game state.
+
+I have not tested docker setup, 
+
+Running Heroku Setup
+
+https://twenty-question-game.herokuapp.com 
+
 
 ## 20 Questoins Game
 
@@ -21,5 +31,5 @@ Happy coding!
 run `sudo docker-compose build`
 
 ### Run the App
-run `sudo docker-compose up`
+run `sudo docker-compose up`  OR `npm start`
 
