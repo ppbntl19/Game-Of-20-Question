@@ -8,7 +8,7 @@ const http = require('http').Server(app);
 const Game = require('./src/models/Game.js');
 _ = require("underscore");
 //server configuration
-const port = process.env.PORT || 8080;
+const port = process.env.PORT || 8081;
 
 //Connection to DB
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost:27017/test")

@@ -8,7 +8,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap-vue/dist/bootstrap-vue.css';
 import VueSocketIO from 'vue-socket.io';
 
-Vue.use(VueSocketIO, window.location.href);
+Vue.use(VueSocketIO, window.base_url);
 Vue.config.productionTip = false;
 Vue.use(BootstrapVue);
 

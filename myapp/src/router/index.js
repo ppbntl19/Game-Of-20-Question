@@ -6,7 +6,7 @@ import Game from '@/components/Game'
 import JoinGame from '@/components/JoinGame'
 import VueSocketIO from 'vue-socket.io'
 
-Vue.use(VueSocketIO, window.location.href)
+Vue.use(VueSocketIO, window.base_url)
 Vue.use(Router)
 
 export default new Router({
